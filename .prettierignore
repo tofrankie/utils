@@ -10,6 +10,7 @@
 .editorconfig
 .npmrc
 package-lock.json
+pnpm-lock.yaml
 
 # Ignored suffix
 *.log

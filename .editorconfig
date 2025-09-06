@@ -11,12 +11,9 @@ trim_trailing_whitespace = true
 insert_final_newline = true
 spaces_around_operators = true
 
-[*.js]
+[*.{js,ts}]
 quote_type = single
 
 [*.md]
 insert_final_newline = false
 trim_trailing_whitespace = false
-
-[*.json]
-indent_size = 2

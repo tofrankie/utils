@@ -1,13 +1,13 @@
+**JavaScript Utils API v0.0.1**
+
+***
+
 # JavaScript Utils
 
 [![npm version](https://img.shields.io/npm/v/@tofrankie/utils.svg)](https://www.npmjs.com/package/@tofrankie/utils)
-[![npm downloads](https://img.shields.io/npm/dm/@tofrankie/utils.svg)](https://www.npmjs.com/package/@tofrankie/utils)
 [![Build Status](https://github.com/toFrankie/utils/workflows/CI/badge.svg)](https://github.com/toFrankie/utils/actions)
-[![Coverage](https://codecov.io/gh/toFrankie/@tofrankie/utils/branch/main/graph/badge.svg)](https://codecov.io/gh/toFrankie/@tofrankie/utils)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![TypeScript](https://img.shields.io/badge/%3C%2F%3E-TypeScript-%230074c1.svg)](http://www.typescriptlang.org/)
-[![Node.js](https://img.shields.io/badge/Node.js-22+-green.svg)](https://nodejs.org/)
-[![pnpm](https://img.shields.io/badge/pnpm-10.15.1+-orange.svg)](https://pnpm.io/)
 
 > 现代化的 JavaScript 工具函数库，提供类型安全、Tree Shaking和良好的开发体验。
 
@@ -37,38 +37,87 @@ yarn add @tofrankie/utils
 ## 🚀 快速开始
 
 ```javascript
-// ES Modules
-import { debounce, throttle } from '@tofrankie/utils'
-```
-
-```javascript
 // CommonJS
 const { debounce, throttle } = require('@tofrankie/utils')
 ```
 
-## 📚 文档
+```javascript
+// ES Modules
+import { debounce, throttle } from '@tofrankie/utils'
+```
 
-- [在线文档](https://tofrankie.github.io/)
-- [API 参考](https://tofrankie.github.io/api/)
-- [在线演示](https://tofrankie.github.io/playground/)
+## 📖 API 文档
+
+### 函数工具 (Function)
+
+#### `debounce(fn, delay, immediate?)`
+
+创建一个防抖函数，在延迟期间内只执行最后一次调用。
+
+**参数：**
+- `fn: Function` - 要防抖的函数
+- `delay: number` - 延迟时间（毫秒）
+- `immediate?: boolean` - 是否立即执行（默认 false）
+
+**返回值：**
+- `Function` - 防抖后的函数
+
+**示例：**
+```typescript
+import debounce from '@tofrankie/utils/function/debounce'
+
+const searchFn = debounce((query: string) => {
+  console.log('搜索:', query)
+}, 300)
+
+// 用户输入时，只有停止输入 300ms 后才会执行搜索
+searchFn('hello')
+searchFn('hello world')
+searchFn('hello world!') // 只有这次会执行
+```
+
+#### `throttle(fn, delay)`
+
+创建一个节流函数，在指定时间内最多执行一次。
+
+**参数：**
+- `fn: Function` - 要节流的函数
+- `delay: number` - 节流时间（毫秒）
+
+**返回值：**
+- `Function` - 节流后的函数
+
+**示例：**
+```typescript
+import throttle from '@tofrankie/utils/function/throttle'
+
+const scrollHandler = throttle(() => {
+  console.log('滚动事件')
+}, 100)
+
+// 滚动时，每 100ms 最多执行一次
+window.addEventListener('scroll', scrollHandler)
+```
+
+## 📊 包体积
+
+| 导入方式 | 大小 | Gzipped |
+|---------|------|---------|
+| 按需导入 | ~158 B | ~50 B |
+| 按需导入 (debounce) | ~952 B | ~286 B |
+| 按需导入 (throttle) | ~1006 B | ~318 B |
+| 按需导入 (delay) | ~525 B | ~158 B |
 
 ## 🛠️ 开发
 
 ### 环境要求
 
 - Node.js >= 22.0.0
-- pnpm >= 10.15.1
+- pnpm >= 8.0.0
 
 ### 安装依赖
 
 ```bash
-# 启用 Corepack（首次使用）
-corepack enable
-
-# 或者手动激活指定版本的 pnpm
-corepack prepare pnpm@10.15.1 --activate
-
-# 安装依赖
 pnpm install
 ```
 
@@ -107,6 +156,7 @@ pnpm docs:dev
 ├── dist/                  # 构建产物
 ├── test/                  # 测试文件
 ├── docs/                  # 文档站点
+├── examples/              # 示例代码
 └── scripts/               # 构建脚本
 ```
 
@@ -125,13 +175,25 @@ pnpm bench
 pnpm test:coverage
 ```
 
+## 📚 文档
+
+- [在线文档](https://tofrankie.github.io/)
+- [API 参考](https://tofrankie.github.io/api/)
+- [在线演示](https://tofrankie.github.io/playground/)
+
 ## 🤝 贡献
 
-欢迎贡献代码！请查看 [贡献指南](CONTRIBUTING.md) 了解详细信息。
+欢迎贡献代码！请查看 [贡献指南](_media/CONTRIBUTING.md) 了解详细信息。
+
+1. Fork 本仓库
+2. 创建特性分支 (`git checkout -b feature/amazing-feature`)
+3. 提交更改 (`git commit -m 'Add some amazing feature'`)
+4. 推送到分支 (`git push origin feature/amazing-feature`)
+5. 开启 Pull Request
 
 ## 📄 许可证
 
-本项目基于 [MIT 许可证](LICENSE) 开源。
+本项目基于 [MIT 许可证](https://github.com/toFrankie/utils/blob/main/LICENSE) 开源。
 
 ## 🙏 致谢
 
