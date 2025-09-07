@@ -48,9 +48,9 @@ const { debounce, throttle } = require('@tofrankie/utils')
 
 ## 📚 文档
 
-- [在线文档](https://tofrankie.github.io/)
-- [API 参考](https://tofrankie.github.io/api/)
-- [在线演示](https://tofrankie.github.io/playground/)
+- [在线文档](https://tofrankie.github.io/utils/)
+- [API 参考](https://tofrankie.github.io/utils/api/)
+- [在线演示](https://tofrankie.github.io/utils/playground/)
 
 ## 🛠️ 开发
 

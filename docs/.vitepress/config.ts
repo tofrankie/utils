@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: 'JavaScript Utils',
   description: '现代化的 JavaScript 工具函数库',
+  base: '/utils/',
   ignoreDeadLinks: true,
 
   markdown: {

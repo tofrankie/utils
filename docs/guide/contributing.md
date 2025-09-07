@@ -178,9 +178,9 @@ describe('myFunction', () => {
 
 ## 📚 资源
 
-- [项目文档](https://toFrankie.github.io/)
-- [API 参考](https://toFrankie.github.io/api/)
-- [在线演示](https://toFrankie.github.io/playground/)
+- [项目文档](https://tofrankie.github.io/utils/)
+- [API 参考](https://tofrankie.github.io/utils/api/)
+- [在线演示](https://tofrankie.github.io/utils/playground/)
 - [GitHub Issues](https://github.com/toFrankie/utils/issues)
 
 ## 💬 社区

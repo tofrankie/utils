@@ -3,8 +3,8 @@ name: Deploy Docs
 on:
   push:
     branches: [main, develop] # TODO: 后续 develop 分支不部署站点
-  pull_request:
-    branches: [main, develop]
+  # pull_request:
+  #   branches: [main, develop]
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -57,14 +57,13 @@ jobs:
           personal_token: ${{ secrets.DEPLOY_PERSONAL_TOKEN }}
           publish_dir: ./docs/.vitepress/dist
           publish_branch: gh-pages
-          external_repository: tofrankie/tofrankie.github.io
 
-      - name: Deploy PR Preview
-        if: github.event_name == 'pull_request'
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          personal_token: ${{ secrets.DEPLOY_PERSONAL_TOKEN }}
-          publish_dir: ./docs/.vitepress/dist
-          publish_branch: gh-pages-preview
-          destination_dir: preview/pr-${{ github.event.number }}
-          external_repository: tofrankie/tofrankie.github.io
+      # - name: Deploy PR Preview
+      #   if: github.event_name == 'pull_request'
+      #   uses: peaceiris/actions-gh-pages@v4
+      #   with:
+      #     personal_token: ${{ secrets.DEPLOY_PERSONAL_TOKEN }}
+      #     publish_dir: ./docs/.vitepress/dist
+      #     publish_branch: gh-pages-preview
+      #     destination_dir: preview/pr-${{ github.event.number }}
+      #     # external_repository: tofrankie/tofrankie.github.io

@@ -22,7 +22,7 @@ hero:
 features:
   - icon: 🚀
     title: 高性能构建
-    details: 使用 tsdown 构建，支持 Tree Shaking
+    details: 使用 tsdown 构建
   - icon: 📦
     title: 轻量级设计
     details: 总包体积仅 20.29KB，Gzip 压缩后 6.44KB，支持按需导入
@@ -37,4 +37,4 @@ features:
     details: 详细的 API 文档、在线演示和本地搜索功能
   - icon: 🌳
     title: Tree Shaking
-    details: 支持按需导入，
+    details: 支持按需导入

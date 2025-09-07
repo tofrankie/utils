@@ -95,4 +95,4 @@ Try JavaScript Utils in your browser without installation:
 
 - [GitHub](https://github.com/toFrankie/utils) - Source code and issues
 - [NPM](https://www.npmjs.com/package/@tofrankie/utils) - Package registry
-- [Documentation](https://toFrankie.github.io/) - Complete docs
+- [Documentation](https://tofrankie.github.io/utils/) - Complete docs
