@@ -3,7 +3,7 @@ layout: home
 
 hero:
   name: "JavaScript Utils"
-  text: "现代化的 JavaScript 工具函数库"
+  text: "仅用于学习，请勿在生产环境使用！"
   tagline: "高性能、类型安全、Tree Shaking"
   image:
     src: /logo.svg

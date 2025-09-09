@@ -9,7 +9,10 @@
 [![Node.js](https://img.shields.io/badge/Node.js-22+-green.svg)](https://nodejs.org/)
 [![pnpm](https://img.shields.io/badge/pnpm-10.15.1+-orange.svg)](https://pnpm.io/)
 
-> 现代化的 JavaScript 工具函数库，提供类型安全、Tree Shaking和良好的开发体验。
+> [!CAUTION]
+> 仅学习用，请勿在生产环境使用！
+
+> 现代化的 JavaScript 工具函数库，提供类型安全、Tree Shaking 和良好的开发体验。
 
 ## ✨ 特性
 
