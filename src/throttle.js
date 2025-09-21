@@ -1,5 +1,3 @@
-/* eslint-disable no-invalid-this */
-
 /**
  * 函数节流
  * @template A, R
@@ -7,7 +5,7 @@
  * @param {number} wait 节流时间
  * @returns {(...args: A) => void} 返回被节流处理的函数
  */
-export const throttle = (func, wait = 0) => {
+export function throttle(func, wait = 0) {
   let prev = 0
   let timerId
 

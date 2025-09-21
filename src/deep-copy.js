@@ -5,7 +5,7 @@
  * @param {*} source 被拷贝的值
  * @returns 返回一个拷贝值
  */
-export const deepCopy = source => {
+export function deepCopy(source) {
   // 创建一个 WeakMap 对象，记录已拷贝过的对象
   const weakmap = new WeakMap()
 
@@ -33,7 +33,7 @@ export const deepCopy = source => {
       'Date',
       'Map',
       'Set',
-      'RegExp'
+      'RegExp',
     ].includes(type)
   }
 
@@ -50,8 +50,8 @@ export const deepCopy = source => {
       case 'Symbol':
       case 'BigInt':
         // 处理包装对象 Wrapper Object
-        // eslint-disable-next-line no-undef
-        return Object(primitiveValue)
+
+        return new Object(primitiveValue)
       case 'Date':
         return new Ctor(primitiveValue) // new Date(+obj)
       case 'RegExp': {
@@ -102,14 +102,10 @@ export const deepCopy = source => {
     if (typeof input === 'function' || !isObject(input)) return input
 
     // 针对已拷贝过的对象，直接返回（解决循环引用的问题）
-    if (weakmap.has(input)) {
-      return weakmap.get(input)
-    }
+    if (weakmap.has(input)) return weakmap.get(input)
 
     // 处理包装对象
-    if (isSepcialObject(input)) {
-      return handleSepcialObject(input)
-    }
+    if (isSepcialObject(input)) return handleSepcialObject(input)
 
     // 创建输出对象
     const output = isArray(input) ? [] : initCloneObject(input)
@@ -119,9 +115,7 @@ export const deepCopy = source => {
 
     // 仅遍历对象自身可枚举的属性（包括字符串属性和 Symbol 属性）
     Reflect.ownKeys(input).forEach(key => {
-      if (input.propertyIsEnumerable(key)) {
-        output[key] = copy(input[key])
-      }
+      if (input.propertyIsEnumerable(key)) output[key] = copy(input[key])
     })
 
     return output

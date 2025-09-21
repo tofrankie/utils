@@ -16,7 +16,7 @@
  * 接着我们对 URL 进行拆分，按先后顺序对 com、sspai.com、shortcuts.sspai.com （以此类推）设置 cookie
  * 倘若能设置 cookie 则说明域名是合法的，停止继续往下执行，直接返回结果 "sspai.com"，同时删掉该 cookie。
  */
-export const getSubdomain = () => {
+export function getSubdomain() {
   try {
     let subdomain = ''
     const key = `mh_${Math.random()}`
@@ -29,9 +29,7 @@ export const getSubdomain = () => {
       /^(\d{1,2}|1\d\d|2[0-4]\d|25[0-5])\.(\d{1,2}|1\d\d|2[0-4]\d|25[0-5])\.(\d{1,2}|1\d\d|2[0-4]\d|25[0-5])\.(\d{1,2}|1\d\d|2[0-4]\d|25[0-5])$/
 
     // 若为 IP 地址、localhost，则直接返回
-    if (ipAddressReg.test(domain) || domain === 'localhost') {
-      return domain
-    }
+    if (ipAddressReg.test(domain) || domain === 'localhost') return domain
 
     const urlItems = []
     urlItems.unshift(domainList.pop())
@@ -50,7 +48,7 @@ export const getSubdomain = () => {
     }
 
     return subdomain || document.domain
-  } catch (e) {
+  } catch {
     return document.domain
   }
 }

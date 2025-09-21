@@ -5,8 +5,11 @@
  * @param {string} code 身份证号码
  * @returns {boolean} 是否检验通过
  */
-export const checkIdNumber = code => {
-  if (!code || typeof code !== 'string') return false
+export function checkIdNumber(code) {
+  if (!code || typeof code !== 'string') {
+    return false
+  }
+
   // prettier-ignore
   const provinceCodes = ['11', '12', '13', '14', '15', '21', '22', '23', '31', '32', '33', '34', '35', '36', '37', '41', '42', '43', '44', '45', '46', '50', '51', '52', '53', '54', '61', '62', '63', '64', '65', '71', '81', '82', '91']
   const reg = /^\d{6}(18|19|20)?\d{2}(0[1-9]|1[012])(0[1-9]|[12]\d|3[01])\d{3}(\d|X)?$/i

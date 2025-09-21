@@ -4,7 +4,7 @@
  * @param {*} key 参数名称
  * @returns 参数值
  */
-export const queryUrlValue = key => {
+export function queryUrlValue(key) {
   if (!key) return ''
 
   const url = decodeURIComponent(window.location.href)

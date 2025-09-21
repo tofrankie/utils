@@ -1,4 +1,4 @@
-import { checkIdNumber } from '../../src/utils/checkIdNumber'
+import { checkIdNumber } from '../src/check-id-number'
 
 // 以下身份证号码源自网络，无意冒犯！（侵权删）
 const validIdNumber = '330602193306179353'
@@ -7,16 +7,16 @@ const invalidIdNumber = '220102197407184211' // 220102197407184210
 const invalidIdNumber2 = '630102196809160118' // 630102196809160117
 
 describe('checkIdNumber.js 模块', () => {
-  test(`正确的二代身份证号码（${validIdNumber}）`, () => {
+  it(`正确的二代身份证号码（${validIdNumber}）`, () => {
     expect(checkIdNumber(validIdNumber)).toEqual(true)
   })
-  test(`正确的二代身份证号码（${validIdNumber2}）`, () => {
+  it(`正确的二代身份证号码（${validIdNumber2}）`, () => {
     expect(checkIdNumber(validIdNumber2)).toEqual(true)
   })
-  test(`错误的二代身份证号码（${invalidIdNumber}）`, () => {
+  it(`错误的二代身份证号码（${invalidIdNumber}）`, () => {
     expect(checkIdNumber(invalidIdNumber)).toEqual(false)
   })
-  test(`错误的二代身份证号码（${invalidIdNumber2}）`, () => {
+  it(`错误的二代身份证号码（${invalidIdNumber2}）`, () => {
     expect(checkIdNumber(invalidIdNumber2)).toEqual(false)
   })
 })

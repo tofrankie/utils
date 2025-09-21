@@ -1,26 +1,23 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Dependencies
+node_modules/
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
+# Testing
+coverage/
 
-# testing
-/coverage
+# Build outputs
+dist/
+docs/.vitepress/dist/
+docs/.vitepress/cache/
 
-# production
-/build
-/dist
+# Logs
+*.log
+pnpm-debug.log*
 
-# misc
-.DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
+# Cache
 .eslintcache
+
+# OS
+.DS_Store
+
+# Lock files
+package-lock.json
