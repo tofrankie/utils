@@ -5,7 +5,7 @@
 # JavaScript Utils
 
 [![npm version](https://img.shields.io/npm/v/@tofrankie/utils.svg)](https://www.npmjs.com/package/@tofrankie/utils)
-[![Build Status](https://github.com/toFrankie/utils/workflows/CI/badge.svg)](https://github.com/toFrankie/utils/actions)
+[![Build Status](https://github.com/tofrankie/utils/workflows/CI/badge.svg)](https://github.com/tofrankie/utils/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![TypeScript](https://img.shields.io/badge/%3C%2F%3E-TypeScript-%230074c1.svg)](http://www.typescriptlang.org/)
 
@@ -193,7 +193,7 @@ pnpm test:coverage
 
 ## 📄 许可证
 
-本项目基于 [MIT 许可证](https://github.com/toFrankie/utils/blob/main/LICENSE) 开源。
+本项目基于 [MIT 许可证](https://github.com/tofrankie/utils/blob/main/LICENSE) 开源。
 
 ## 🙏 致谢
 

@@ -8,7 +8,7 @@
 
 1. **Fork 并克隆仓库**
    ```bash
-   git clone https://github.com/toFrankie/utils.git
+   git clone https://github.com/tofrankie/utils.git
    cd utils
    ```
 
@@ -140,7 +140,7 @@ pnpm validate
 
 在报告问题之前，请确保：
 
-1. 检查 [Issues](https://github.com/toFrankie/utils/issues) 中是否已有相同问题
+1. 检查 [Issues](https://github.com/tofrankie/utils/issues) 中是否已有相同问题
 2. 使用最新的代码版本
 3. 提供详细的复现步骤
 
@@ -174,7 +174,7 @@ pnpm validate
 
 在提出功能请求之前，请确保：
 
-1. 检查 [Issues](https://github.com/toFrankie/utils/issues) 中是否已有相同请求
+1. 检查 [Issues](https://github.com/tofrankie/utils/issues) 中是否已有相同请求
 2. 功能符合项目的设计理念
 3. 提供详细的使用场景
 
@@ -269,8 +269,8 @@ Closes #123
 
 ## 📞 联系方式
 
-- 项目维护者：[@toFrankie](https://github.com/toFrankie)
+- 项目维护者：[@tofrankie](https://github.com/tofrankie)
 - 邮箱：1426203851@qq.com
-- 讨论：[GitHub Discussions](https://github.com/toFrankie/utils/discussions)
+- 讨论：[GitHub Discussions](https://github.com/tofrankie/utils/discussions)
 
 感谢您的贡献！🎉

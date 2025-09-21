@@ -29,7 +29,7 @@ export default defineConfig({
           {
             text: '更多',
             items: [
-              { text: 'GitHub', link: 'https://github.com/toFrankie/utils' },
+              { text: 'GitHub', link: 'https://github.com/tofrankie/utils' },
               { text: 'NPM', link: 'https://www.npmjs.com/package/@tofrankie/utils' },
               { text: '贡献指南', link: '/guide/contributing' },
             ],
@@ -80,7 +80,7 @@ export default defineConfig({
           {
             text: 'More',
             items: [
-              { text: 'GitHub', link: 'https://github.com/toFrankie/utils' },
+              { text: 'GitHub', link: 'https://github.com/tofrankie/utils' },
               { text: 'NPM', link: 'https://www.npmjs.com/package/@tofrankie/utils' },
               { text: 'Contributing', link: '/en/guide/contributing' },
             ],
@@ -116,7 +116,7 @@ export default defineConfig({
         },
 
         editLink: {
-          pattern: 'https://github.com/toFrankie/utils/edit/main/docs/:path',
+          pattern: 'https://github.com/tofrankie/utils/edit/main/docs/:path',
           text: 'Edit this page on GitHub',
         },
 
@@ -153,13 +153,10 @@ export default defineConfig({
       },
     },
 
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/toFrankie/utils' },
-      { icon: 'twitter', link: 'https://twitter.com/toFrankie' },
-    ],
+    socialLinks: [{ icon: 'github', link: 'https://github.com/tofrankie/utils' }],
 
     editLink: {
-      pattern: 'https://github.com/toFrankie/utils/edit/main/docs/:path',
+      pattern: 'https://github.com/tofrankie/utils/edit/main/docs/:path',
       text: '在 GitHub 上编辑此页',
     },
 

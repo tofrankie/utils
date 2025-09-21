@@ -2,8 +2,8 @@
 
 [![npm version](https://img.shields.io/npm/v/@tofrankie/utils.svg)](https://www.npmjs.com/package/@tofrankie/utils)
 [![npm downloads](https://img.shields.io/npm/dm/@tofrankie/utils.svg)](https://www.npmjs.com/package/@tofrankie/utils)
-[![Build Status](https://github.com/toFrankie/utils/workflows/CI/badge.svg)](https://github.com/toFrankie/utils/actions)
-[![Coverage](https://codecov.io/gh/toFrankie/@tofrankie/utils/branch/main/graph/badge.svg)](https://codecov.io/gh/toFrankie/@tofrankie/utils)
+[![Build Status](https://github.com/tofrankie/utils/workflows/CI/badge.svg)](https://github.com/tofrankie/utils/actions)
+[![Coverage](https://codecov.io/gh/tofrankie/@tofrankie/utils/branch/main/graph/badge.svg)](https://codecov.io/gh/tofrankie/@tofrankie/utils)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![TypeScript](https://img.shields.io/badge/%3C%2F%3E-TypeScript-%230074c1.svg)](http://www.typescriptlang.org/)
 [![Node.js](https://img.shields.io/badge/Node.js-22+-green.svg)](https://nodejs.org/)

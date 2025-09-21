@@ -7,13 +7,13 @@
   "description": "Modern JavaScript utility functions library",
   "author": "Frankie <1426203851@qq.com>",
   "license": "MIT",
-  "homepage": "https://github.com/toFrankie/utils",
+  "homepage": "https://github.com/tofrankie/utils",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/toFrankie/utils.git"
+    "url": "git+https://github.com/tofrankie/utils.git"
   },
   "bugs": {
-    "url": "https://github.com/toFrankie/utils/issues"
+    "url": "https://github.com/tofrankie/utils/issues"
   },
   "publishConfig": {
     "access": "public"

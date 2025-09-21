@@ -7,7 +7,7 @@ Experience JavaScript Utils functions online without installation.
 Click the button below to open the online demo environment with real-time editing and execution:
 
 <div style="text-align: center; margin: 2rem 0;">
-  <a href="https://stackblitz.com/github/toFrankie/utils" target="_blank" style="display: inline-block; padding: 12px 24px; background: #4F46E5; color: white; text-decoration: none; border-radius: 8px; font-weight: 500;">
+  <a href="https://stackblitz.com/github/tofrankie/utils" target="_blank" style="display: inline-block; padding: 12px 24px; background: #4F46E5; color: white; text-decoration: none; border-radius: 8px; font-weight: 500;">
     🎮 Open Online Demo
   </a>
 </div>
@@ -18,7 +18,7 @@ You can also run the demo locally:
 
 ```bash
 # Clone the project
-git clone https://github.com/toFrankie/utils.git
+git clone https://github.com/tofrankie/utils.git
 cd utils
 
 # Install dependencies

@@ -7,7 +7,7 @@
 点击下方按钮打开在线演示环境，支持实时编辑和运行：
 
 <div style="text-align: center; margin: 2rem 0;">
-  <a href="https://stackblitz.com/github/toFrankie/utils" target="_blank" style="display: inline-block; padding: 12px 24px; background: #4F46E5; color: white; text-decoration: none; border-radius: 8px; font-weight: 500;">
+  <a href="https://stackblitz.com/github/tofrankie/utils" target="_blank" style="display: inline-block; padding: 12px 24px; background: #4F46E5; color: white; text-decoration: none; border-radius: 8px; font-weight: 500;">
     🎮 打开在线演示
   </a>
 </div>
@@ -18,7 +18,7 @@
 
 ```bash
 # 克隆项目
-git clone https://github.com/toFrankie/utils.git
+git clone https://github.com/tofrankie/utils.git
 cd utils
 
 # 安装依赖

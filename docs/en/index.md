@@ -14,7 +14,7 @@ hero:
       link: /en/guide/getting-started
     - theme: alt
       text: View on GitHub
-      link: https://github.com/toFrankie/utils
+      link: https://github.com/tofrankie/utils
 
 features:
   - icon: 🚀
@@ -93,6 +93,6 @@ Try JavaScript Utils in your browser without installation:
 
 ## Community
 
-- [GitHub](https://github.com/toFrankie/utils) - Source code and issues
+- [GitHub](https://github.com/tofrankie/utils) - Source code and issues
 - [NPM](https://www.npmjs.com/package/@tofrankie/utils) - Package registry
 - [Documentation](https://tofrankie.github.io/utils/) - Complete docs

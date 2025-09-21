@@ -8,7 +8,7 @@
 
 > **throttle**\<`T`\>(`func`, `wait`): (...`args`) => `void`
 
-Defined in: [throttle.ts:23](https://github.com/toFrankie/utils/blob/6fe72e7788243f5d10d8a2f3a2f17524edf4c4ce/src/function/throttle.ts#L23)
+Defined in: [throttle.ts:23](https://github.com/tofrankie/utils/blob/6fe72e7788243f5d10d8a2f3a2f17524edf4c4ce/src/function/throttle.ts#L23)
 
 节流函数
 

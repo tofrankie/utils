@@ -29,7 +29,7 @@ git clone https://github.com/YOUR_USERNAME/utils.git
 cd utils
 
 # 添加上游仓库
-git remote add upstream https://github.com/toFrankie/utils.git
+git remote add upstream https://github.com/tofrankie/utils.git
 
 # 同步上游仓库（可选，用于获取最新代码）
 git fetch upstream
@@ -257,7 +257,7 @@ export * from './new-function'
 
 ### 1. 检查现有问题
 
-在报告新 Bug 之前，请先检查 [Issues](https://github.com/toFrankie/utils/issues) 中是否已经存在相同的问题。
+在报告新 Bug 之前，请先检查 [Issues](https://github.com/tofrankie/utils/issues) 中是否已经存在相同的问题。
 
 ### 2. 创建 Issue
 
@@ -422,4 +422,4 @@ pnpm release
 
 ---
 
-如果您有任何问题，请随时在 [GitHub Issues](https://github.com/toFrankie/utils/issues) 中提出。
+如果您有任何问题，请随时在 [GitHub Issues](https://github.com/tofrankie/utils/issues) 中提出。

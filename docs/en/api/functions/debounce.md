@@ -8,7 +8,7 @@
 
 > **debounce**\<`T`\>(`func`, `wait`, `immediate`): (...`args`) => `void`
 
-Defined in: [debounce.ts:24](https://github.com/toFrankie/utils/blob/6fe72e7788243f5d10d8a2f3a2f17524edf4c4ce/src/function/debounce.ts#L24)
+Defined in: [debounce.ts:24](https://github.com/tofrankie/utils/blob/6fe72e7788243f5d10d8a2f3a2f17524edf4c4ce/src/function/debounce.ts#L24)
 
 防抖函数
 

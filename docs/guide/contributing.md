@@ -13,7 +13,7 @@
 
 ```bash
 # 克隆项目
-git clone https://github.com/toFrankie/utils.git
+git clone https://github.com/tofrankie/utils.git
 cd utils
 
 # 安装依赖
@@ -35,7 +35,7 @@ pnpm build
 
 如果您发现了 bug 或有功能建议，请：
 
-1. 检查 [Issues](https://github.com/toFrankie/utils/issues) 是否已存在
+1. 检查 [Issues](https://github.com/tofrankie/utils/issues) 是否已存在
 2. 创建新的 Issue，详细描述问题或建议
 3. 提供复现步骤（如果是 bug）
 
@@ -181,11 +181,11 @@ describe('myFunction', () => {
 - [项目文档](https://tofrankie.github.io/utils/)
 - [API 参考](https://tofrankie.github.io/utils/api/)
 - [在线演示](https://tofrankie.github.io/utils/playground/)
-- [GitHub Issues](https://github.com/toFrankie/utils/issues)
+- [GitHub Issues](https://github.com/tofrankie/utils/issues)
 
 ## 💬 社区
 
-- 在 [GitHub Discussions](https://github.com/toFrankie/utils/discussions) 中讨论
+- 在 [GitHub Discussions](https://github.com/tofrankie/utils/discussions) 中讨论
 - 关注项目更新和公告
 
 感谢您的贡献！🎉

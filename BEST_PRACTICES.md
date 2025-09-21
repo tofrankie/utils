@@ -396,8 +396,8 @@ performanceMonitor.log('页面加载完成')
 ## 📚 更多资源
 
 - [完整文档](https://tofrankie.github.io/utils/)
-- [在线演示](https://stackblitz.com/github/toFrankie/utils)
-- [GitHub 仓库](https://github.com/toFrankie/utils)
+- [在线演示](https://stackblitz.com/github/tofrankie/utils)
+- [GitHub 仓库](https://github.com/tofrankie/utils)
 - [API 参考](https://tofrankie.github.io/utils/api/)
 
 ---

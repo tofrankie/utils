@@ -17,7 +17,7 @@ hero:
       link: /playground/
     - theme: alt
       text: 查看 GitHub
-      link: https://github.com/toFrankie/utils
+      link: https://github.com/tofrankie/utils
 
 features:
   - icon: 🚀

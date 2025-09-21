@@ -23,4 +23,4 @@ If you're new to JavaScript Utils, start here:
 
 - [API Reference](/en/api/) - Complete API documentation
 - [Playground](/en/playground/) - Try functions online
-- [GitHub](https://github.com/toFrankie/utils) - Source code and issues
+- [GitHub](https://github.com/tofrankie/utils) - Source code and issues

@@ -13,7 +13,7 @@ Thank you for your interest in the JavaScript Utils project! We welcome contribu
 
 ```bash
 # Clone the project
-git clone https://github.com/toFrankie/utils.git
+git clone https://github.com/tofrankie/utils.git
 cd utils
 
 # Install dependencies
@@ -35,7 +35,7 @@ pnpm build
 
 If you find bugs or have feature suggestions, please:
 
-1. Check [Issues](https://github.com/toFrankie/utils/issues) to see if it already exists
+1. Check [Issues](https://github.com/tofrankie/utils/issues) to see if it already exists
 2. Create a new Issue with detailed description of the problem or suggestion
 3. Provide reproduction steps (if it's a bug)
 
@@ -181,11 +181,11 @@ describe('myFunction', () => {
 - [Project Documentation](https://tofrankie.github.io/utils/)
 - [API Reference](https://tofrankie.github.io/utils/api/)
 - [Online Demo](https://tofrankie.github.io/utils/playground/)
-- [GitHub Issues](https://github.com/toFrankie/utils/issues)
+- [GitHub Issues](https://github.com/tofrankie/utils/issues)
 
 ## 💬 Community
 
-- Discuss in [GitHub Discussions](https://github.com/toFrankie/utils/discussions)
+- Discuss in [GitHub Discussions](https://github.com/tofrankie/utils/discussions)
 - Follow project updates and announcements
 
 Thank you for your contribution! 🎉

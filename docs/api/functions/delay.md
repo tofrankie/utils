@@ -8,7 +8,7 @@
 
 > **delay**\<`T`\>(`func`, `ms`): (...`args`) => `void`
 
-Defined in: [delay.ts:21](https://github.com/toFrankie/utils/blob/6fe72e7788243f5d10d8a2f3a2f17524edf4c4ce/src/function/delay.ts#L21)
+Defined in: [delay.ts:21](https://github.com/tofrankie/utils/blob/6fe72e7788243f5d10d8a2f3a2f17524edf4c4ce/src/function/delay.ts#L21)
 
 延迟执行函数
 
